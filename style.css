@@ -78,7 +78,7 @@ padding: 1.2rem;
     background-color: rgba(255, 255, 255, 0.2);
     padding: 0.5rem;
 }
-.intro__description{
+.intro__description em{
 color:var(--secondary-color) ;
 font-size: 1.3rem;
 }
