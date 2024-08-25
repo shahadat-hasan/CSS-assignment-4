@@ -6,6 +6,12 @@
  - CSS Specificity
  - Typography
  - Box model
- - Background properties
- - Basic layout -float,positioning
  - design a card
+ ### Intermediate CSS
+ - Background properties
+ - Basic layout -float,positioning ,display property - inlline,block,inlineblock
+ - how to make a circle
+ - responsiveness
+ - transition
+ - animation
+
