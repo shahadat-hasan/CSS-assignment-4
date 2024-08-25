@@ -1,0 +1,11 @@
+### Basic CSS
+ - introduction to CSS
+ - Ways to add CSS
+ - Selectors and combinators
+ - CSS variable
+ - CSS Specificity
+ - Typography
+ - Box model
+ - Background properties
+ - Basic layout -float,positioning
+ - design a card

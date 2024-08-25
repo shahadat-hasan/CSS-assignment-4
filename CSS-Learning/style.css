@@ -1,0 +1,122 @@
+
+:root{
+    --primary-color:#4caf50;
+    --secondary-color:#fff;
+    --background-color:#f4f4f4;
+    --card-background-color:#fff;
+    --card-shawdo:rgba(0,0,0,0.2);
+}
+/* body start here*/
+body{
+    background-color:var(--background-color);
+    color:#333;
+    font-family:"Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    color:var(--primary-color);
+}
+ul{
+    list-style:none;
+}
+.card{
+background-color: var(--card-background-color);
+border-radius: 0.5rem;
+margin: 1.2rem;
+padding:1.2rem;
+box-shadow:2px 6px 9px var(--card-shawdo);
+}
+/* body end here*/
+/* header start here */
+header{
+background-color:var(--primary-color);
+color:var(--secondary-color);
+text-align: center;
+padding: 1.5rem o;
+}
+
+nav ul{
+margin: 0;
+padding: 0;
+}
+nav ul li{
+margin:0.10rem;
+}
+nav ul li a{
+color:var(--secondary-color);
+text-decoration: none;
+font-weight: bold;
+}
+
+/* header End here */
+/* main start here */
+main{
+width: 80%;
+margin: auto;
+padding: 1.2rem;
+}
+table{
+width:100%;
+border-collapse: collapse;
+margin:12rem 0
+}
+table,th,td{
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+
+}
+/* main end here */
+/* contact start here */
+button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 0.8rem 1.6rem;
+    margin:0.8rem 0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(196, 184, 24);
+}
+input,select,textarea{
+    width: 100%;
+    padding:0.8rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+/* contact end here*/
+footer{
+    background-color:var(--primary-color) ;
+    color:var(--secondary-color);
+    text-align: center;
+    width:100%;
+    padding: 0;
+}
+.social-media a{
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size:1.5rem;
+    margin:0 0.5rem;
+}
+/* footer end here*/
+
+/* a=number of ids */
+/* b=number of class,pseduo classs,attributes */
+/* c=number of elements,pseduo elements */
+
+/*h1{ /* a=0,b=0,c=1
+    background-color: #a52525;
+    color:var(--secondary-color);
+} 
+.title{ /* a=0,b=1,c=0
+    background-color:blue ;
+    color:var(--secondary-color);
+}
+
+#id-title{/* a=1,b=0,c=0
+    background-color: #8c9600;
+    color:var(--secondary-color);
+}*/
+
